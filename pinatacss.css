@@ -1,0 +1,111 @@
+<html>
+
+    <head>
+
+        <style>
+
+            * { box-sizing: border-box; }
+
+            body{
+                margin:0;
+                padding:0; 
+                text-align: center;
+                font-family: Montserrat; 
+            }
+
+            #topbar{ 
+                color:#71B8E2;
+                background-color:#E2E1DF ;
+                position:fixed;
+                width:100%;
+                height:25px;
+                z-index: 2;
+                padding-top:5px;
+            }
+            
+            #topbar a {
+                /*Styling of link*/
+                text-decoration:none;
+                color:black;
+                font-size: 90%;
+            }
+            
+            #topbar a:hover {
+                /*Changes text color when hovering over link*/
+                color:#7396A8;   
+            }
+            
+            .linkspace{
+                /*Styles individual links*/
+                font-family:Montserrat;
+                font-size:13px;
+                padding:5px 15px;
+            }
+            
+            .clear{
+                /*Clears Flaots*/
+                clear:both;  
+            }
+
+
+            #been-a-while{
+                font-size: 130%;
+                padding-top:140px;
+                padding-bottom: 50px;
+                
+            }
+
+            #intro{
+                padding-bottom: 60px;
+            }
+
+            #a-mission{
+                padding:30px 0px 60px 0;
+                background-color: #F8FA9B;
+            }
+
+            #a-mission h3{
+                font-size: 300%
+            }
+
+            #a-mission p{
+                font-size: 140%;
+                padding:0px 50px;
+            }
+
+
+            .eventimages{
+                line-height: 0;
+                -webkit-column-count: 2;
+                -webkit-column-gap:   0px;
+                -moz-column-count:    2;
+                -moz-column-gap:      0px;
+                column-count:         2;
+                column-gap:           2px; 
+                padding-bottom: 30px;
+            }
+
+            .eventimages img{
+                width: 100%;
+                height: auto; 
+                padding-bottom:2px;
+            }
+
+            #next{
+                padding-bottom: 50px;
+            }
+
+            #demo{
+                font-size: 300%;
+            }
+
+#interested{
+    background-color:#F8FA9B;
+    padding:30px 0px;
+}
+
+        </style>
+
+    </head>
+
+</html>

@@ -1,0 +1,130 @@
+<html>
+    <head>
+        
+
+        
+        <title>Pinata</title>
+        
+        <link rel="stylesheet" type="text/css" href="pinatacss.css">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Montserrat');
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <div id="topbar"> <!-- Bar at the top of the page including the links hosted within it -->
+
+            <a href="" class="linkspace">Home</a> 
+            <a href="" class="linkspace">Locations</a>
+            <a href="" class="linkspace">Top Pinatas</a>
+            <a href="" class="linkspace">Partners</a>
+            <a href="" class="linkspace">Connect</a>
+
+        </div>
+        
+                        
+        <div>
+            <img src="Images/pinatabig.jpg"width=100%;>
+        </div>
+        
+
+        <div id="been-a-while">
+            <p>We know it’s probably been a while. Most of us haven’t hit a piñata since we were kids. </p>
+            <p>But what if you could? What if you could smash maybe one… two… three… piñatas? </p>
+            <p><span><strong>Introducing:</strong></span></p>
+        </div>
+
+        
+        
+        
+        <div id="intro">
+            <img src="Images/PINATALOGO.png" width=70%;> 
+            <br><h3><strong>(No, we're not a football club)</strong></h3>
+        </div>
+        
+        
+        <div id="a-mission">
+            <h3>Who we are</h3>
+            <p>Soon to be a new standard for business-to-consumer interactions, Piñata F.C. is an events-based startup looking to connect brands with users through piñata-themed parties––everyone celebrating a brand’s new(est) product release, and with users helping to drive it by channeling the fun-having kid inside of them.</p> 
+        </div>
+        
+        <div id="next">
+            <h2>Next event happening in: </h2>
+            <h1 id="demo"></h1>
+        </div>
+        
+        
+        <div class="eventimages"> 
+            <img src="Images/giantpinata.jpg" >
+            <img src="Images/trumppinata.jpg" >
+            <img src="Images/manpinata.jpg" >
+            <img src="Images/PINATADROP.jpg" >
+        
+        </div>
+        
+
+        
+
+        <div id="interested">
+            <form>
+                <h1 id="interested">Interested?</h1>
+                <p>First Name <input type="text" class="info"></p>
+                <p>Last Name <input type="text" class="info"></p>
+                <p>Email <input type="text" class="info"></p>
+                <p>Phone # <input type="text" class="info"></p>
+                <p><input type="submit" class="button"></p>
+            </form>
+        </div>
+        
+        
+
+        
+        <script type="text/javascript">
+
+            // Set the date we're counting down to
+            var countDownDate = new Date("Oct 1, 2017 20:30:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text 
+            if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+            
+            
+        </script>
+        
+    
+
+         <!---   
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eJSVbstaBp8" frameborder="0" allowfullscreen></iframe>
+        -->
+    
+    </body>
+    
+    
+    
+    
+</html>
